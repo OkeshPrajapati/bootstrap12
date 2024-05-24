@@ -1,0 +1,33 @@
+.weblogo{
+    width: 65px;
+
+}
+.navbar{
+    background: #00000091;
+}
+
+ .navbar-nav li{
+    padding: 0,10px; 
+
+}
+.mobilelogo{
+    display: none;
+}
+
+.navbar-nav li a{
+    color: white;
+    font-weight: 600px;
+    font-size: 20px;
+    padding-left: 20px;
+} 
+@media(max-width:768px){
+    .mobilelogo{
+        display: block;
+    }
+    .weblogo{
+        display: none;       
+}
+.navbar{
+    background-color: #febb1e
+}
+}
